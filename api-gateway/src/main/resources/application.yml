@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: api-gateway
+
+server:
+  port: 8080
+
+ribbon:
+  eureka:
+    enabled: false
+
+zuul:
+  routes:
+    inventory-service:
+      path: /inventory/**
+      url: http://localhost:9000
