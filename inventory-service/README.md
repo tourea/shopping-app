@@ -1,4 +1,4 @@
-# api-gateway #
+# Inventory Service #
 
 The inventory service manages information about the inventory
 

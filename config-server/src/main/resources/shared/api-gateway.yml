@@ -6,11 +6,11 @@ server:
   port: 8080
 
 ribbon:
-  eureka:
-    enabled: false
+  ReadTimeout: 20000
+  ConnectTimeout: 20000
 
 zuul:
   routes:
     inventory-service:
       path: /inventory/**
-      url: http://localhost:9000
+      url: http://inventory-service:8081

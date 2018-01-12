@@ -7,10 +7,14 @@ The goal of this project is to implement the Microservice Architecture for educa
 
  ![diagram](api-gateway/api-gateway.png)
 
-## Topics:
+## Topics
 The following is a list of some of the concepts that will be implemented:
 
-* API gateways (using [Netflix Zuul](https://cloud.spring.io/spring-cloud-netflix/multi/multi__router_and_filter_zuul.html))
+* Distributed Configuration (using [Spring Cloud Config](https://cloud.spring.io/spring-cloud-config/))
+* API Gateways (using [Netflix Zuul](https://cloud.spring.io/spring-cloud-netflix/multi/multi__router_and_filter_zuul.html))
 * API Versioning
 
 These concepts will be extended as the project evolves.
+
+## Build and Run (Docker)
+```./dev.sh```
