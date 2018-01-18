@@ -10,7 +10,7 @@ services:
     build: api-gateway
     mem_limit: 200000000
     ports:
-      - 8080:8080
+      - 8082:8080
     depends_on:
       config-server:
         condition: service_healthy
