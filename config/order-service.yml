@@ -1,6 +1,0 @@
-pring:
-  application:
-    name: order-service
-
-server:
-  port: 8089

@@ -22,6 +22,8 @@ classes/
 *.iws
 *.orig
 
+.vscode/
+
 # OS X noise
 .DS_Store
 
